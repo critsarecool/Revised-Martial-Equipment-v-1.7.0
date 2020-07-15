@@ -85,7 +85,7 @@
 				}
 			]
 		},
-    {
+	        {
 			"abbreviation": "DBE",
 			"source": "RME",
 			"entries": [
@@ -98,7 +98,7 @@
 				}
 			]
 		},
-    {
+ 	        {
 			"abbreviation": "ETG",
 			"source": "RME",
 			"entries": [
@@ -111,7 +111,7 @@
 				}
 			]
 		},
-    {
+	        {
 			"abbreviation": "FIS",
 			"source": "RME",
 			"entries": [
@@ -137,7 +137,7 @@
 				}
 			]
 		},
-    {
+	        {
 			"abbreviation": "HVY",
 			"source": "RME",
 			"entries": [
@@ -150,7 +150,7 @@
 				}
 			]
 		},
-    {
+	        {
 			"abbreviation": "LNC",
 			"source": "RME",
 			"entries": [
@@ -163,7 +163,7 @@
 				}
 			]
 		},
-    {
+  	        {
 			"abbreviation": "LIT",
 			"source": "RME",
 			"entries": [
@@ -189,7 +189,7 @@
 				}
 			]
 		},
-    {
+	        {
 			"abbreviation": "ML",
 			"source": "RME",
 			"entries": [
@@ -202,7 +202,7 @@
 				}
 			]
 		},
-    {
+	        {
 			"abbreviation": "OHD",
 			"source": "RME",
 			"entries": [
@@ -215,7 +215,7 @@
 				}
 			]
 		},
-    {
+	        {
 			"abbreviation": "PEN",
 			"source": "RME",
 			"entries": [
@@ -241,7 +241,7 @@
 				}
 			]
 		},
-    {
+	        {
 			"abbreviation": "RCH",
 			"source": "RME",
 			"entries": [
@@ -254,7 +254,7 @@
 				}
 			]
 		},
-    {
+	        {
 			"abbreviation": "RLD",
 			"source": "RME",
 			"entries": [
@@ -267,7 +267,7 @@
 				}
 			]
 		},
-    {
+	        {
 			"abbreviation": "THR",
 			"source": "RME",
 			"entries": [
@@ -280,7 +280,7 @@
 				}
 			]
 		},
-    {
+ 	        {
 			"abbreviation": "TRP",
 			"source": "RME",
 			"entries": [
@@ -293,7 +293,7 @@
 				}
 			]
 		},
-    {
+	        {
 			"abbreviation": "THD",
 			"source": "RME",
 			"entries": [
@@ -306,7 +306,7 @@
 				}
 			]
 		},
-    {
+  	        {
 			"abbreviation": "VRS",
 			"source": "RME",
 			"entries": [
@@ -318,7 +318,7 @@
 					]
 				}
 			]
-		},
+		}
 	],
 	"item": [
 		{
@@ -548,6 +548,6 @@
 				}
 			],
 			"source": "RME"
-		},
-  ]
+		}
+    ]
 }
