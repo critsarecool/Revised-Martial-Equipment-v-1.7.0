@@ -453,7 +453,8 @@
 				"OHD",
 				"CCL",
 				"DEF",
-        "FIN"
+        "FIN",
+	"LIT"			
 			],
       "entries": [
 				{
