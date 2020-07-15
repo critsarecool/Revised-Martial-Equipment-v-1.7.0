@@ -83,7 +83,7 @@
 			"value": 3500,
 			"weight": 6,
 			"dmg1": "2d4",
-			"dmg2": "2d6",
+			"dmg2": "",
 			"dmgType": "S",
 			"property": [
 				"EX",
