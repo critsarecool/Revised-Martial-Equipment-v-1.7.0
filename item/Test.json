@@ -4,20 +4,9 @@
 			{
 				"json": "Revised-Martial-Equipment",
 				"abbreviation": "RME",
-				"full": "Revised Martial Equipment",
-				"authors": [
-					"Commander Fayne"
-				],
-				"convertedBy": [
-					"Critsarecool"
-				],
-				"url": "https://github.com/TheGiddyLimit/homebrew",
-				"version": "1.7.0",
-				"targetSchema": "1.0.0"
+				"full": "Revised Martial Equipment"
 			}
-		],
-		"dateAdded": 1594841115,
-		"dateLastModified": 1594841115
+		]
 	},
 	"itemProperty": [
 		{
