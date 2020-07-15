@@ -75,14 +75,14 @@
 	],
 	"item": [
 		{
-			"name": "Bastard Sword",
+			"name": "Whip Dagger",
 			"type": "M",
 			"weapon": true,
 			"weaponCategory": "exotic",
 			"rarity": "none",
 			"value": 3500,
 			"weight": 6,
-			"dmg1": "2d4",
+			"dmg1": "1d4",
 			"dmg2": "",
 			"dmgType": "S",
 			"property": [
