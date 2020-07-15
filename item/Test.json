@@ -21,21 +21,21 @@
 	},
 	"itemProperty": [
 		{
-			"abbreviation": "EX",
-			"source": "EW",
+			"abbreviation": "AWK",
+			"source": "RME",
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Exotic",
+					"name": "Awkward",
 					"entries": [
-						"No characters are proficient with exotic weapons by default. To become proficient with an exotic weapon, a character must be trained in the use of that specific weapon."
+						"This weapon requires additional training to use properly, but you still get limited use with it. You do not add your proficiency bonus while rolling an attack with this weapon."
 					]
 				}
 			]
 		},
 		{
 			"abbreviation": "DBL",
-			"source": "EW",
+			"source": "RME",
 			"entries": [
 				{
 					"type": "entries",
@@ -47,8 +47,21 @@
 			]
 		},
 		{
+			"abbreviation": "EX",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Exotic",
+					"entries": [
+						"This item requires specific training."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "IC",
-			"source": "EW",
+			"source": "RME",
 			"entries": [
 				{
 					"type": "entries",
@@ -75,7 +88,8 @@
 			"property": [
 				"EX",
 				"H",
-				"V"
+				"V",
+				"AWK"
 			],
 			"source": "EW"
 		},
