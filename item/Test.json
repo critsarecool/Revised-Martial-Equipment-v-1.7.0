@@ -21,7 +21,7 @@
 	},
 	"itemProperty": [
 		{
-			"abbreviation": "AWK",
+			"abbreviation": "AW",
 			"source": "RME",
 			"entries": [
 				{
@@ -89,9 +89,9 @@
 				"EX",
 				"H",
 				"V",
-				"AWK"
+				"AW"
 			],
-			"source": "EW"
+			"source": "RME"
 		},
 		{
 			"name": "Bladed Gauntlet",
