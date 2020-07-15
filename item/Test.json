@@ -2,22 +2,22 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "EW",
-				"abbreviation": "ExW",
-				"full": "Exotic Weapons",
+				"json": "Revised-Martial-Equipment",
+				"abbreviation": "RME",
+				"full": "Revised Martial Equipment",
 				"authors": [
-					"Joey"
+					"Commander Fayne"
 				],
 				"convertedBy": [
-					"Jafner"
+					"Critsarecool"
 				],
-				"url": "https://www.gmbinder.com/share/-LFZWmzEFPFoTRwZ4VPd",
-				"version": "1.1",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"version": "1.7.0",
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1537874753,
-		"dateLastModified": 1537874753
+		"dateAdded": 1594841115,
+		"dateLastModified": 1594841115
 	},
 	"itemProperty": [
 		{
