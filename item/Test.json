@@ -112,9 +112,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Special",
+					"name": "Mastery Perk",
 					"entries": [
-						"This weapon does not require a free hand."
+						"Allows you to wield the weapon with one hand, and gives the Lunge property. When your attack is successful, as a Bonus Action, you can choose to force the enemy to succeed on a Strength saving throw or be pulled up to 10ft toward you."
 					]
 				}
 			],
