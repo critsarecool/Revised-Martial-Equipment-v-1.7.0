@@ -28,7 +28,7 @@
 			"name": "Whip Dagger",
 			"type": "M",
 			"weapon": true,
-			"weaponCategory": "exotic",
+			"weaponCategory": "Ambush Weapons",
 			"rarity": "none",
 			"value": 3500,
 			"weight": 6,
