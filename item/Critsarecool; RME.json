@@ -21,6 +21,149 @@
 					]
 				}
 			]
+		},
+		{
+			"abbreviation": "CCL",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Conceal",
+					"entries": [
+						"You gain advantage on Sleight of Hand Checks made to conceal the weapon on your person. If it is discovered, some conceal weapons still require the searching party makes a successful Intelligence check to identify what it is. "
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "BR",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Brace",
+					"entries": [
+						"As an Action you choose to Brace. On your turn, choose any targets you can see that are at least 20 feet away from you. If any one of those targets move within your weapon’s reach before your next turn, you can make one melee attack against it with your weapon, which uses your reaction. If the attack hits, treat the attack as a critical hit. While bracing, you cannot use a reaction. While bracing, if you move or are moved against your will, you forfeit the reaction until your next turn. A brace attack is not an Opportunity Attack. "
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DEF",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Deflect",
+					"entries": [
+						"If struck by a melee weapon attack, you can use your reaction to roll your weapon’s damage plus your strength modifier, then subtract that total from the damage dealt to you for one attack. If you are dual wielding deflect weapons, you may do this to two attacks using the same reaction. "
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DIS",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Disarm",
+					"entries": [
+						"You may only make a disarm attempt with weapons that have the Disarm property, unless you have an ability that says otherwise. On hit, you can choose to deal only your Strength modifier in damage and force your enemy to roll a Strength or Dexterity Saving Throw. On a failure, it drops one held object of your choice, landing within 5ft of it. If the enemy is larger than you or is using a two-handed weapon, it gains advantage on this save. If it is smaller than you, it suffers disadvantage. Shields that are strapped to the arm are immune to Disarm. "
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DBL",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Double Ended",
+					"entries": [
+						"You make one additional attack as a bonus action (or part of the attack action, see: Best Practices) using the damage listed, if you are within 5 ft of your target and wielding your weapon with two hands. Double Ended attacks do not benefit from Reach."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "ENT",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Entangle",
+					"entries": [
+						"On hit, you can choose to deal only your Strength modifier in damage and force the enemy to succeed on a Strength or Dexterity Saving Throw or be grappled. To escape, the entangled target must succeed a grapple check against your weapon DC, gaining advantage if it is larger than you. Creatures two size categories larger than you are immune to being entangled. While you are holding the weapon entangling your target, your attacks only damage equal to your Strength modifier. You may also interact with your target as if you were grappling it, for example, moving it or shoving it. You can release a foe from being entangled at any time. If you drop the weapon, the foe is automatically freed. "
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "FIR",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Firearm",
+					"entries": [
+						"Rolling a 1 on an Attack Roll causes this weapon to jam. It's still loaded, but a malfunction prevented ignition. As an action, you must clear the jam before it can make a ranged attack again. Firearm weapons can't make ranged attacks underwater, and if they are subjected to water such as from rain or a tidal wave spell, they jam on a 1-2 until you spend an action to dry them. All firearms create a sound which can be heard up to 300ft away. Firearm weapons that have the Ranged property require gun powder and either, lead ball, bullet, or shot loaded into it to make an attack. Ammunition is not recoverable from Firearm weapons. Firearm weapons that have the Launch property can be recovered if they fail to go off due to a jam (meaning the weapon was thrown, but did not explode when it landed)."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "LNC",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Launch",
+					"entries": [
+						"If you miss, this weapon lands on the ground but still goes off within 5ft of the intended target. Roll a d8. The result is which square it lands in, starting with the square closest to you as 1, and counting clockwise until you reach the rolled number."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "LUN",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Lunge",
+					"entries": [
+						"If you use an attack action, you attack a foe up to 5ft further than normal with all attacks for that turn, which can be combined with Reach. This ends with your turn and cannot be used as part of an Opportunity Attack. Performing a lunge uses your reaction."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "PEN",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Penetrate",
+					"entries": [
+						"These weapons are designed to penetrate armor and deal more damage to those wearing it. While attacking an enemy using a shield or wearing heavy armor, you can roll totale damage from your weapon twice and take the better result. "
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "TRP",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Trip",
+					"entries": [
+						"If your attack is successful, you can choose to deal only your Strength modifier in damage and your enemy must succeed on a Strength or Dexterity Saving Throw or be knocked prone. Enemies 1 size category larger than you gain advantage on this save. Enemies two size categories larger than you are immune to being tripped in this way. "
+					]
+				}
+			]
 		}
 	],
 	"item": [
