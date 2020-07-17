@@ -376,6 +376,659 @@
 				}
 			],
 			"source": "RME"
+		},
+		{
+			"name": "Battle Axe",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 10,
+			"weight": 4,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "S",
+			"property": [
+				"TRP",
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery makes the damage 1d10 or 1d12 two handed. Reroll a damage dice result of 1 or 2."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Greataxe",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 30,
+			"weight": 6,
+			"dmg1": "1d12",
+			"dmg2": "2d8",
+			"dmgType": "S",
+			"property": [
+				"2H",
+				"DIS",
+				"H",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery makes damage 2d8. When you roll at least 5 higher than the enemy's AC, you can roll all damage and any modifiers twice and take the better result."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Halberd",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 35,
+			"weight": 7,
+			"dmg1": "2d6",
+			"dmg2": "3d4",
+			"dmgType": "P/S",
+			"property": [
+				"2H",
+				"BR",
+				"H",
+				"R",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery gives the Entangle property, and makes the damage 3d4. You gain advantage on trip attacks made to mounted enemies and Large creautres. If your trip is successful against a mounted foe, it is automatically pulled from its mount to a prone position. You gain advantage on entangle attacks made against enemies two size categories larger than you."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Handaxe",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 5,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"T",
+				"L",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery gives the Disarm property. You gain advantage on all disarm attacks."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Hook Sword",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 60,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"DEF",
+				"DIS",
+				"F",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery gives the Light, Entangle, and Lunge properties. When you are hit with a melee weapon attack, as a reaction you can make a disarm or entangle attack against that enemy. While dual wielding two hook swords, you have reach and a lunge does not use your reaction."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Kopesh",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 10,
+			"weight": 3,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "S/P",
+			"property": [
+				"DIS",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"When you make a trip attack, if you hit, even if they save against the attempt, your enemy's speed is reduced by 10ft until the end of their next turn. While they have this penalty, they have disadvantage saving throws against a trip attack."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Poleaxe",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 40,
+			"weight": 7,
+			"dmg1": "1d10",
+			"dmg2": "2d6",
+			"dmgType": "B/P/S",
+			"property": [
+				"BR",
+				"DEF",
+				"H",
+				"PEN",
+				"TRP",
+				"2H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases damage to 2d6. While wielding a poleaxe, you gain +1 AC and you may add your proficiency bonus to deflect rolls."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Tomahawk",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 1,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "S/P",
+			"property": [
+				"T",
+				"F",
+				"L",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery gives the Disarm property. You can choose to take a -5 penalty to a ranged attack roll. If the attack hits, you add +10 to the attack's damage."
+					]
+				}
+			],
+			"range": "40/120",
+			"source": "RME"
+		},
+		{
+			"name": "Greatclub",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 0.2,
+			"weight": 8,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"DIS",
+				"PEN",
+				"H",
+				"2H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the Deflect property, and increases the damage to 1d10. If you are successful in a disarm attempt, the enemy can no longer add proficiency to attacks with that weapon."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Heavy Club",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 0.1,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"T"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the versatile property, and increases the damage to 1d8 and the two handed damage to 1d10. The thrown range increases to 20 and 40. When you score a critical hit, your enemy is stunned for d4 rounds. At the end of each of its turns, your stunned enemy can attempt a Constitution saving throw, ending the effect on a success."
+					]
+				}
+			],
+			"range": "10/30",
+			"source": "RME"
+		},
+		{
+			"name": "Light Club",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 0.1,
+			"weight": 2,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"CCL",
+				"T",
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases damage to 1d6. On hit, you can choose to deal only your Strength modifier in damage but your foe must succeed on a Constitution saving throw or suffer disadvantage to its Saving Throws until the end of your next turn."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Bar Mace",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 3,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "B/P",
+			"property": [
+				"DIS"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the Deflect property. If you successfully Disarm, your enemy has disadvantage on melee attacks. At the end of its turn, it can attempt a Constitution saving throw, ending this effect on a success. You can apply this effect to any creature on success regardless of if it is wielding a weapon."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Flanged Mace",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 5,
+			"weight": 4,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "B/S",
+			"property": [
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 1d8. Your penetrate affects creatures in any armor. You may also add your strength modifier twice to Penetrate damage totals."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Mallet",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 0.3,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"T",
+				"DIS"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the range to 30 and 90. As a bonus action, you can make a shove attempt that, if successful, deals bludgeoning damage equal to your strength modifier."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Morningstar",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 15,
+			"weight": 6,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "B/P",
+			"property": [
+				"2H",
+				"BR",
+				"PEN",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery gives the Double Ended property, with the damage being 1d4, and increases the main weapon damage to 1d12. Before you roll an attack, you can choose to -5 to the roll. On hit, you deal piercing damage equal to your strength modifier, but reduce the enemy's AC by the same amount."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Quarterstaff",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 0.5,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "1d6",
+			"dmgType": "B",
+			"property": [
+				"2H",
+				"DBL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"The Double Ended property damage is 1d6. Mastery increases the Double Ended damage to 1d8. You gain +1 AC while wielding this weapon and you may add your ability modifier to damage rolls made with Double Ended. Additionally, you may use Double Ended when making an Opportunity Attack, making two attacks instead of one."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Bladed Bow",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 100,
+			"weight": 5,
+			"dmg1": "1d8",
+			"dmg2": "1d6",
+			"dmgType": "P/S",
+			"property": [
+				"2H",
+				"F",
+				"H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Melee damage is 1d6, ranged is 1d8. Mastery gives the Double Ended property, for 1d6 damage. You may add your ability modifier to damage rolls made with Double Ended."
+					]
+				}
+			],
+			"range": "120/600",
+			"source": "RME"
+		},
+		{
+			"name": "Compound Bow",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 500,
+			"weight": 3,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"LD",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Martial reload is a free object interaction. Mastery makes the damage 1d12, and the reload part of the attack. When you overdraw, you take the normal -5 to attack, but if you hit, you deal damage to your primary target, and one other target in a straight line from you that intercects your first target."
+					]
+				}
+			],
+			"range": "200/800",
+			"source": "RME"
+		},
+		{
+			"name": "Greatbow",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 75,
+			"weight": 5,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases damage to 1d12. When you score a critical hit, your enemy must succeed on a strength saving throw or be shoved 5ft in a straight line away from you and knocked prone. Large creatures have advantage on this save, and larger creatures are immune. Creatures that are flying have disadvantage on this save."
+					]
+				}
+			],
+			"range": "200/800",
+			"source": "RME"
+		},
+		{
+			"name": "Longbow",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 50,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases damage to 1d10. If you suffer disadvantage for any reason, you can use your reaction to attempt a concentration check against DC10 or half your target's AC, whichever is higher. If you succeed, your disadvantage is negated."
+					]
+				}
+			],
+			"range": "120/600",
+			"source": "RME"
+		},
+		{
+			"name": "Recurve",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 150,
+			"weight": 2,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You can loose two arrows at the same time, shooting one target with two attacks or two targets with one attack each. These attacks suffer disadvantage."
+					]
+				}
+			],
+			"range": "120/600",
+			"source": "RME"
+		},
+		{
+			"name": "Shortbow",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 25,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases damage to 1d8. You threaten 5ft around you and can make a ranged opportunity attack when an enemy leaves your threatened space. You do not have disadvantage to ranged attacks if an enemy is within 5ft of you."
+					]
+				}
+			],
+			"range": "80/320",
+			"source": "RME"
+		},
+		{
+			"name": "Sling",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 0.1,
+			"weight": 0,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"CCL",
+				"DIS"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases damage to 1d6, and gives the Entangle, Melee 1d6, Light, and Trip properties. You can take -5 to the attack roll to hurl with extra strength, and on hit, the target must succeed on a Constitution saving throw or have disadvantage to attacks until the end of its next turn."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Wrist Shot",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 5,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "B/S",
+			"property": [
+				"2H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You can measure distance from yourself to a single DM approved obstacle, and then to your target. If that range is within your long distance, you can ignore any cover the enemy has. You can bounce twice, but this attack is made with disadvantage."
+					]
+				}
+			],
+			"range": "40/160",
+			"source": "RME"
 		}
 	]
 }
