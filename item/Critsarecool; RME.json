@@ -1029,6 +1029,1084 @@
 			],
 			"range": "40/160",
 			"source": "RME"
+		},
+		{
+			"name": "Dagger",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 2,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"T",
+				"CCL",
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You can use a bonus action to make an attack with a dagger, even if you don't take the attack action."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Kukri",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 3,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"L",
+				"T",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery adds the Disarm property, and increases the range to 40/120. Reroll any damage die from this weapon or any modifiers that rolls a 1. Additionally, when you trip, your target's speed is reduced by 10ft until the end of their next turn."
+					]
+				}
+			],
+			"range": "40/80",
+			"source": "RME"
+		},
+				{
+			"name": "Rapier",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 25,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"F"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery gives the Deflect, Light, and Lunge properties. If you are wielding a rapier and nothing in your off hand, you can add d4 to your damage roll. If you are wielding a light weapon, instead add +1 to AC."
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "Saber",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 35,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"F"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Melee damage increased to 2d4, and adds the Deflect and Light properties. If an enemy hits you with a melee weapon attack, you can use your reaction to add your proficiency to your AC, possibly negating a successful hit. This added bonus to AC lasts for that enemy's turn only."
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "Sai",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 5,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"CCL",
+				"DEF",
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the Disarm property. You gain +1 AC if you are wielding a Sai in your off hand. As a bonus action you may make a disarm attack."
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "Shortsword",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 10,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery makes the damage 1d8. When you have advantage on the attack, you can roll damage twice and take the better result, including any modifiers attached to the shortsword, such as elemental imbue damage or sneak attacks."
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "Sickle",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 1,
+			"weight": 2,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"L",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery makes the damage 1d6, and grants the Entangle property. Your entangle attacks deal full weapon damage on hit. When you hit with a trip attack, your enemy suffers -10 ft to its speed until the end of its next turn, regardless of if it succeeds on the save against the trip."
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "Smallsword",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 30,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
+		},
+				{
+			"name": "",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": ,
+			"weight": ,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"",
+				"",
+				""
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				}
+			],
+			"source": "RME"
 		}
 	]
 }
