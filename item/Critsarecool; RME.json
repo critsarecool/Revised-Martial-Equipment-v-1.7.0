@@ -1087,7 +1087,7 @@
 			"range": "40/80",
 			"source": "RME"
 		},
-				{
+		{
 			"name": "Rapier",
 			"type": "M",
 			"weapon": true,
@@ -1112,7 +1112,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "Saber",
 			"type": "M",
 			"weapon": true,
@@ -1137,7 +1137,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "Sai",
 			"type": "M",
 			"weapon": true,
@@ -1165,7 +1165,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "Shortsword",
 			"type": "M",
 			"weapon": true,
@@ -1191,7 +1191,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "Sickle",
 			"type": "M",
 			"weapon": true,
@@ -1217,7 +1217,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "Smallsword",
 			"type": "M",
 			"weapon": true,
@@ -1226,6 +1226,33 @@
 			"value": 30,
 			"weight": 1,
 			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"F",
+				"L",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the Lunge property. If you have advantage on your attack, you may add d4 to your attack roll. If you have disadvantage on your attack, you may spend your bonus action to roll your choice of athletics or acrobatics to negate the disadvantage. The DC is equal to your targets AC."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Arquebus",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 750,
+			"weight": 10,
+			"dmg1": "4d8+5",
 			"dmg2": "",
 			"dmgType": "P",
 			"property": [
@@ -1242,9 +1269,10 @@
 					]
 				}
 			],
+			"range": "",
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1271,7 +1299,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1298,7 +1326,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1325,7 +1353,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1352,7 +1380,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1379,7 +1407,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1406,7 +1434,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1433,7 +1461,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1460,7 +1488,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1487,7 +1515,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1514,7 +1542,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1541,7 +1569,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1568,7 +1596,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1595,7 +1623,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1622,7 +1650,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1649,7 +1677,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1676,7 +1704,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1703,7 +1731,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1730,7 +1758,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1757,7 +1785,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1784,7 +1812,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1811,7 +1839,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1838,7 +1866,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1865,7 +1893,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1892,7 +1920,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1919,7 +1947,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1946,7 +1974,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -1973,7 +2001,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -2000,7 +2028,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -2027,7 +2055,7 @@
 			],
 			"source": "RME"
 		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
@@ -2054,34 +2082,7 @@
 			],
 			"source": "RME"
 		},
-				{
-			"name": "",
-			"type": "M",
-			"weapon": true,
-			"weaponCategory": "exotic",
-			"rarity": "none",
-			"value": ,
-			"weight": ,
-			"dmg1": "",
-			"dmg2": "",
-			"dmgType": "",
-			"property": [
-				"",
-				"",
-				""
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Mastery Perk",
-					"entries": [
-						""
-					]
-				}
-			],
-			"source": "RME"
-		},
-				{
+		{
 			"name": "",
 			"type": "M",
 			"weapon": true,
