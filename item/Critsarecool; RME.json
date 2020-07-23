@@ -2352,6 +2352,66 @@
 				}
 			],
 			"source": "RME"
+		},
+		{
+			"name": "Light Hammer",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 2,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"T",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If your attack is at least 5 higher than the target's AC, your enemy's speed is reduced by half until the start of your next turn."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "War Hammer",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 15,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"V",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 1d10/1d12. You ignore resistance to non-magical bludgeoning damage, and when you score a critical hit, your enemy becomes vulnerable to bludgeoning damage for that attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Versatile damage is 1d10."
+					]
+				}
+			],
+			"source": "RME"
 		}
 	]
 }
