@@ -1575,6 +1575,783 @@
 			],
 			"range": "20/80",
 			"source": "RME"
+		},
+		{
+			"name": "Bastard Sword",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 40,
+			"weight": 4,
+			"dmg1": "1d12",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"2H",
+				"H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery gives it the Versatile property, making one handed damage 1d12 and two handed damage 2d6. Your Critical hit range is 19-20, unless it is 18-20. Against category size Large and larger enemies, your damage is 2d8(2d10) instead of d12(2d6)."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Broadsword",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 20,
+			"weight": 3,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 3d4. When you score a critical hit, triple your Strength modifier to damage, and make one additional attack as part of the same action. This effect can only happen once during your turn."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Greatsword",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 50,
+			"weight": 5,
+			"dmg1": "2d8",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"2H",
+				"H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 2d10. Against category size Large and larger enemies, your damage is 2d12, instead of 2d10."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Katana",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 10,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"F",
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 1d8/1d10, and grants the Deflect and Light properties. While wielding this weapon with two hands, your deflect dice becomes 2d10. With one hand, you may add your proficiency bonus to your deflect rolls."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Versatile damage is 1d8."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Longsword",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 15,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"DIS",
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 1d10/1d12, and grants the Finesse property. Your Critical hit range is 18-20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Versatile damage is 1d10."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Montante",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 75,
+			"weight": 5,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"2H",
+				"H",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 3d6. You have +1 AC while wielding this weapon, and you negate any flanking bonus any enemy might have for flanking you or having the enemy's ally near you, such as pack tactics or sneak attack."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Scimitar",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 25,
+			"weight": 2.5,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases damage to 1d8, and grants the Deflect property. When you choose to deflect, you may roll twice and take the better result. Additionally, if you travel at least 20ft before you make an attack, your weapon deals an additional 2d8 slashing damage."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Short Glaive",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 45,
+			"weight": 4,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"2H",
+				"F",
+				"LUN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the Brace property. If an enemy misses you with a melee attack, you can use your reaction to make a melee attack against that enemy."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Blowgun",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 1,
+			"weight": 1,
+			"dmg1": "1d2",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"LD"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Damage increases to 1d4. You can load two darts. Roll two attacks against the same target. Each dart deals d2 damage and applies their effect to the target, but you can only do this at your normal range."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Reloading time is as part of the attack. Attacking from stealth and missing does not reveal your location. Can be shot with one hand, but requires two to reload."
+					]
+				}
+			],
+			"range": "25/100",
+			"source": "RME"
+		},
+		{
+			"name": "Hand Crossbow",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 75,
+			"weight": 2,
+			"dmg1": "1d6+1",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"L",
+				"LD"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery makes the reload be part of the attack. Can be reloaded with one hand. As a bonus action, you can make an attack with this weapon, even if you haven't taken the attack action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Reloading time is a Free Object Interaction."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Heavy Crossbow",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 50,
+			"weight": 8,
+			"dmg1": "1d10+3",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"H",
+				"LD",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery makes reloading a bonus action. Before you roll an attack, you can choose to take -5 to the roll. If you hit, your enemy must succeed on a strength saving throw or be knocked prone. Category Large creatures gain advantage on this save, while larger creatures are immune. Flying creatures suffer disadvantage on this save while flying."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Reloading time takes the place of an attack."
+					]
+				}
+			],
+			"range": "100/400",
+			"source": "RME"
+		},
+		{
+			"name": "Hidden Crossbow",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 150,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"CCL",
+				"L",
+				"LD"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the range to 30/60, and makes the reload time a reaction. If an enemy misses you with an attack, you can use your reaction to make a ranged attack against it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Reloading time is a bonus action. The hand this weapon is equipped to is open, however, you can’t deploy a hidden crossbow from a hand that is holding something. This weapon cannot be disarmed, but takes 1 action to equip or remove."
+					]
+				}
+			],
+			"range": "20/40",
+			"source": "RME"
+		},
+		{
+			"name": "Light Crossbow",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 50,
+			"weight": 5,
+			"dmg1": "1d8+2",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"LD"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Reloading time is reduced to a free object interaction. You threaten 5ft around you and can make a ranged opportunity attack if an enemy leaves your threatened space."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Reloading time is a reaction. An alternative to the light crossbow is the repeating crossbow, which can hold 6 bolts. As long as it holds bolts, reloading is part of the attack action. Loading a new case of 6 bolts takes an action, which provokes attacks of opportunity. Only light crossbows can be made repeating."
+					]
+				}
+			],
+			"range": "80/320",
+			"source": "RME"
+		},
+		{
+			"name": "Mauler",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 100,
+			"weight": 6,
+			"dmg1": "3d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"LD"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Master increases the range to 40/80, and makes the reload a bonus action. When you score a critical within 30ft, roll 6d4 for your bonus critical damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Reloading time is in place of an attack. Attacking in the far range on medium or smaller targets only deals 1d4 damage, as only the top bolt is accurate at range. Large an larger size targets take the full damage."
+					]
+				}
+			],
+			"range": "30/60",
+			"source": "RME"
+		},
+		{
+			"name": "Portable Ballista",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 15,
+			"dmg1": "1d12+4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"H",
+				"PEN",
+				"LD",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Master makes the reload a bonus action. The crossbow mastery feat's two-target range is 50ft. If you choose a piece of terrain within 5ft of your target and which flanks your target with you, you can instead give the restrained condition to your target on that terrain. Escape DC is your weapon DC."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Reloading time is in place of an attack. A deployable stand can be purchased to mount the weapon. As an action, the weapon is mounted to the stand and can be reloaded as an object interaction."
+					]
+				}
+			],
+			"range": "150/600",
+			"source": "RME"
+		},
+		{
+			"name": "Spinner",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 100,
+			"weight": 2,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"S"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the Light property. On a critical hit, the blade bounces off its target and hits another target of your choice within 10ft of the first target, dealing normal weapon damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"This gnomish invention launches discus blades with internal mechanisms instead of tension limbs. It holds 20 blades and reloading is part of the attack, though when depleted, it takes an Action to reload with 20 more. Range can be measured to an obstacle, then your target. If it is less than normal range, ignore any cover the creature has."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Double Flail",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 20,
+			"weight": 7,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "B/P",
+			"property": [
+				"H",
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery damage increases to 2d6/2d8, and the weapon gains the trip property. When you suffer disadvantage but one dice would have hit, you deal 1 of the weapon's damage dice plus your strength modfier, even though this still counts as a miss. If you have advantage and both dice hit, add your Strength modifier twice to the damage total."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Versatile damage is 2d6."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Light Flail",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 8,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "B/P",
+			"property": [
+				"DIS",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the Light property. If you miss with an attack, you may use your reaction to make one extra attack as part of the same action."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Heavy Flail",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 10,
+			"weight": 5,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "B/P",
+			"property": [
+				"H",
+				"PEN",
+				"V",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Damage increases to 1d10/1d12, and the weapon gains the Disarm property. If your enemy succeeds on their save against your disarm, entangle, or trip attack, you can make an attack as part of the same action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Versatile damage is 1d10."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Pole Flail",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 25,
+			"weight": 10,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"2H",
+				"H",
+				"R",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the Entangle property. When you hit with an opportunity attack, that creature's speed is halved until the end of its next turn."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Meteor Hammer",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 5,
+			"weight": 3,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"2H",
+				"ENT",
+				"LUN",
+				"R",
+				"F"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the Disarm and Trip properties. As an action, you begin twirling the hammer around you in a 10ft radius. Until the start of your next turn, any creature of your choice which starts its turn or which enters this space must succeed on a Dexterity save or be damaged as if you hit it with a melee attack."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Nunchaku",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 1,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"CCL",
+				"ENT",
+				"F",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the Light property and the Double Ended property, with the double ended damage being 1d4. You can treat this weapon as if it is Double Ended even while wielding it in one hand. If you dual wield nunchaku, you may make two Double Ended attacks with the same Bonus Action. If you wield only one, you may add your ability modifier to the attack's damage."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Whip",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 2,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"DIS",
+				"F",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 1d6, and grants the Entangle, Light, and Trip properties. When you disarm any creature, you choose to place the item anywhere in your reach, or catch it as a reaction. An item in your reach that can be grabbed with the whip can be placed anywhere else in your reach."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"This weapon has an extended reach, being able to hit targets up to 15 ft away. You can use a whip to grasp unattended small objects, or any reasonable handhold within range and if possible, you can pull the object to you."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Chain Sword (Sword)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 250,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"F",
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the Lunge property. You may change between weapon forms freely, which is how you get the lunge property."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Versatile damage is 1d10. Can change to the whip form as a bonus action."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Chain Sword (Whip)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 250,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"ENT",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You may change freely between forms. While an enemy is entangled, you can still attack your entangled enemy, or any target within 5ft of it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Can change to the sword form as a bonus action."
+					]
+				}
+			],
+			"source": "RME"
 		}
 	]
 }
