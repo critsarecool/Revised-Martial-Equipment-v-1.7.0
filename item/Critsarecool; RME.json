@@ -241,6 +241,13 @@
 					"entries": [
 						"Mastery gives the light property, and the damage scales with proficiency, d4, d6, d8, and d10 for +2, +3, +5, and +6 respectively. As a reaction to a melee attack, before the roll, you can declare that you try to catch the attack. If the attack misses, you have advantage on your next weapon attack, athletics, or acrobatics check against that enemy, or you can give disadvantage to these checks your enemy makes on their next turn, unless they let go of their weapon."
 					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Putting on or taking off gauntlets is an action, and they cannot be disarmed."
+					]
 				}
 			],
 			"source": "RME"
@@ -267,6 +274,13 @@
 					"name": "Mastery Perk",
 					"entries": [
 						"Any hit against a surprised creature takes maximum damage from this weapon and any modifiers such as sneak attack, instead of rolling for the damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"The hand this weapon is equipped to is open, allowing it to wield a weapon, shield, grapple, or perform somatic components for a spell. However, you can’t deploy a hidden blade into a hand that is holding something else. This weapon cannot be disarmed but takes an action to equip or remove."
 					]
 				}
 			],
@@ -295,6 +309,13 @@
 					"name": "Mastery Perk",
 					"entries": [
 						"Mastery gains the Disarm, Entangle, and Trip properties. The deflect die is 1d8. You may use the Deflect property against flight weapons. When a creature you can see attacks a target that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Wielding an Interceptor gives you +1 AC."
 					]
 				}
 			],
@@ -372,6 +393,13 @@
 					"name": "Mastery Perk",
 					"entries": [
 						"Mastery gives the Deflect, Disarm, Light, and Trip properties, and the damage scales with proficiency, d4, d6, d8, and d10 for +2, +3, +5, and +6 respectively. You may use your bonus action to perform a shove or disarm attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Unarmed strikes do not count as weapon attacks until you have mastery training with them."
 					]
 				}
 			],
@@ -893,6 +921,13 @@
 					"entries": [
 						"Mastery increases damage to 1d12. When you score a critical hit, your enemy must succeed on a strength saving throw or be shoved 5ft in a straight line away from you and knocked prone. Large creatures have advantage on this save, and larger creatures are immune. Creatures that are flying have disadvantage on this save."
 					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"At least STR 13 is required to wield this bow. Additionally, javelins and ballista bolts can be used as ammunition, but with disadvantage on the attack."
+					]
 				}
 			],
 			"range": "200/800",
@@ -944,7 +979,7 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"You can loose two arrows at the same time, shooting one target with two attacks or two targets with one attack each. These attacks suffer disadvantage."
+						"You can loose two arrows at the same time. These attacks suffer disadvantage, and must target two targets within your normal range and within 5 ft of each other."
 					]
 				}
 			],
@@ -999,6 +1034,13 @@
 					"entries": [
 						"Mastery increases damage to 1d6, and gives the Entangle, Melee 1d6, Light, and Trip properties. You can take -5 to the attack roll to hurl with extra strength, and on hit, the target must succeed on a Constitution saving throw or have disadvantage to attacks until the end of its next turn."
 					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Can use rounded stones or small bits of anything that can fit in the leather cup, though these attacks are made with -1 to the attack roll."
+					]
 				}
 			],
 			"range": "30/120",
@@ -1024,6 +1066,13 @@
 					"name": "Mastery Perk",
 					"entries": [
 						"You can measure distance from yourself to a single DM approved obstacle, and then to your target. If that range is within your long distance, you can ignore any cover the enemy has. You can bounce twice, but this attack is made with disadvantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Can use debris or rounded stones as ammunitions, with a -1 to the attack roll."
 					]
 				}
 			],
@@ -1159,7 +1208,7 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery grants the Disarm property. You gain +1 AC if you are wielding a Sai in your off hand. As a bonus action you may make a disarm attack."
+						"You gain +1 AC if you are wielding a Sai in your off hand, and you may perform a Disarm attack as a reaction if an enemy misses you with a melee attack."
 					]
 				}
 			],
@@ -1252,9 +1301,257 @@
 			"rarity": "none",
 			"value": 750,
 			"weight": 10,
-			"dmg1": "4d8+5",
+			"dmg1": "2d10+5",
 			"dmg2": "",
 			"dmgType": "P",
+			"property": [
+				"2H",
+				"H",
+				"FIR",
+				"PEN",
+				"LD"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Must expend an attack to reload. Can deploy a bipod as a bonus action to negate the disadvantage for attacking beyond its normal range."
+					]
+				}
+			],
+			"range": "300/900",
+			"source": "RME"
+		},
+		{
+			"name": "Blunderbuss",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 300,
+			"weight": 5,
+			"dmg1": "2d8+5",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"FIR",
+				"LD"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Must expend an attack to reload. Doesn't suffer disadvantage against targets within 5 ft, and instead gains the Penetrate quality. When attacking, you choose a target and up to two targets within 5 ft of it. One shot makes an attack against all three. Blunderbuss does not have a long range."
+					]
+				}
+			],
+			"range": "60",
+			"source": "RME"
+		},
+		{
+			"name": "Firelance",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 200,
+			"weight": 5,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "F",
+			"property": [
+				"2H",
+				"FIR",
+				"LD"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Ranged fire attack spread out in a 15 ft cone from within 10 ft of you, targets within the cone must make a DEX save or take 2d4 fire damage. Can also be used as a lance in melee, dealing 1d8 damage. Reloads as a bonus action."
+					]
+				}
+			],
+			"range": "15",
+			"source": "RME"
+		},
+		{
+			"name": "Hand Cannon",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 250,
+			"weight": 3,
+			"dmg1": "1d10+5",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"FIR",
+				"PEN",
+				"LD"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery makes the damage 1d12+5. "
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"This weapon doesn't suffer disadvantage when an enemy is within 5 ft. Must expend an attack to reload."
+					]
+				}
+			],
+			"range": "200/600",
+			"source": "RME"
+		},
+		{
+			"name": "Pepperbox",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 1,
+			"dmg1": "2d4+5",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"CCL",
+				"L",
+				"FIR",
+				"LD"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery makes the damage 2d6. "
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"This weapon doesn't suffer disadvantage when an enemy is within 5 ft. The weapon can be fired four times before reloading. Reloading requires an action, which will only reload 2 barrels. Variants with more barrels can be purchased, with a 5 barrel and 6 barrel option for 2000 and 2500 respectively."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Firepot",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 25,
+			"weight": 2,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "F",
+			"property": [
+				"FIR",
+				"T",
+				"LNC"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"After being hit, the target continues to take 1d6 fire damage at the start of its turn for 1d6 rounds. They can use an action to make a dexterity saving throw as an action, extinguishing it on a success. Alternatively, an ally can make an acrobatics check to attempt to pat them out. On a miss, the fire burns for 1d6 rounds, and any creature starting its turn there or entering the space for the first time on its turn must make a DEX save, or suffer 1d6 fire damage."
+					]
+				}
+			],
+			"range": "20/80",
+			"source": "RME"
+		},
+		{
+			"name": "Flash Bomb",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 35,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "R",
+			"property": [
+				"T",
+				"FIR",
+				"LNC"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"When hit, target must succeed on a dexterity saving throw or become blinded until the end of your next turn. Targets with sunlight sensitivity make this roll with disadvantage. Upon a miss, any creature in the square the flash bomb lands in takes no damage and has advantage on the dexterity save."
+					]
+				}
+			],
+			"range": "20/80",
+			"source": "RME"
+		},
+		{
+			"name": "Powder Charge",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 150,
+			"weight": 2,
+			"dmg1": "3d6",
+			"dmg2": "",
+			"dmgType": "P/T",
 			"property": [
 				"",
 				"",
@@ -1270,195 +1567,6 @@
 				}
 			],
 			"range": "",
-			"source": "RME"
-		},
-		{
-			"name": "",
-			"type": "M",
-			"weapon": true,
-			"weaponCategory": "exotic",
-			"rarity": "none",
-			"value": ,
-			"weight": ,
-			"dmg1": "",
-			"dmg2": "",
-			"dmgType": "",
-			"property": [
-				"",
-				"",
-				""
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Mastery Perk",
-					"entries": [
-						""
-					]
-				}
-			],
-			"source": "RME"
-		},
-		{
-			"name": "",
-			"type": "M",
-			"weapon": true,
-			"weaponCategory": "exotic",
-			"rarity": "none",
-			"value": ,
-			"weight": ,
-			"dmg1": "",
-			"dmg2": "",
-			"dmgType": "",
-			"property": [
-				"",
-				"",
-				""
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Mastery Perk",
-					"entries": [
-						""
-					]
-				}
-			],
-			"source": "RME"
-		},
-		{
-			"name": "",
-			"type": "M",
-			"weapon": true,
-			"weaponCategory": "exotic",
-			"rarity": "none",
-			"value": ,
-			"weight": ,
-			"dmg1": "",
-			"dmg2": "",
-			"dmgType": "",
-			"property": [
-				"",
-				"",
-				""
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Mastery Perk",
-					"entries": [
-						""
-					]
-				}
-			],
-			"source": "RME"
-		},
-		{
-			"name": "",
-			"type": "M",
-			"weapon": true,
-			"weaponCategory": "exotic",
-			"rarity": "none",
-			"value": ,
-			"weight": ,
-			"dmg1": "",
-			"dmg2": "",
-			"dmgType": "",
-			"property": [
-				"",
-				"",
-				""
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Mastery Perk",
-					"entries": [
-						""
-					]
-				}
-			],
-			"source": "RME"
-		},
-		{
-			"name": "",
-			"type": "M",
-			"weapon": true,
-			"weaponCategory": "exotic",
-			"rarity": "none",
-			"value": ,
-			"weight": ,
-			"dmg1": "",
-			"dmg2": "",
-			"dmgType": "",
-			"property": [
-				"",
-				"",
-				""
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Mastery Perk",
-					"entries": [
-						""
-					]
-				}
-			],
-			"source": "RME"
-		},
-		{
-			"name": "",
-			"type": "M",
-			"weapon": true,
-			"weaponCategory": "exotic",
-			"rarity": "none",
-			"value": ,
-			"weight": ,
-			"dmg1": "",
-			"dmg2": "",
-			"dmgType": "",
-			"property": [
-				"",
-				"",
-				""
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Mastery Perk",
-					"entries": [
-						""
-					]
-				}
-			],
-			"source": "RME"
-		},
-		{
-			"name": "",
-			"type": "M",
-			"weapon": true,
-			"weaponCategory": "exotic",
-			"rarity": "none",
-			"value": ,
-			"weight": ,
-			"dmg1": "",
-			"dmg2": "",
-			"dmgType": "",
-			"property": [
-				"",
-				"",
-				""
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Mastery Perk",
-					"entries": [
-						""
-					]
-				}
-			],
 			"source": "RME"
 		},
 		{
