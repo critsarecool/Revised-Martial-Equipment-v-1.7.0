@@ -426,7 +426,14 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery makes the damage 1d10 or 1d12 two handed. Reroll a damage dice result of 1 or 2."
+						"Mastery makes the damage 1d10 or 1d12 two handed. Reroll a damage dice result of 1 or 2 for both damage dice and any attachers, such as smite."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Versatile damage is 1d10."
 					]
 				}
 			],
@@ -454,7 +461,7 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery makes damage 2d8. When you roll at least 5 higher than the enemy's AC, you can roll all damage and any modifiers twice and take the better result."
+						"Mastery makes damage 2d8. When you roll at least 5 higher than the enemy's AC, you can roll all damage and any attachers twice and take the better result."
 					]
 				}
 			],
@@ -483,7 +490,14 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery gives the Entangle property, and makes the damage 3d4. You gain advantage on trip attacks made to mounted enemies and Large creautres. If your trip is successful against a mounted foe, it is automatically pulled from its mount to a prone position. You gain advantage on entangle attacks made against enemies two size categories larger than you."
+						"Mastery gives the Entangle property, and makes the damage 3d4. You gain advantage on trip attacks made to mounted enemies and Large creatures. If your trip is successful against a mounted foe, it is automatically pulled from its mount to a prone position. You gain advantage on entangle attacks made against enemies two size categories larger than you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"With martial proficiency, a halberd can be used to perform a trip against mounted foes to pull them from the saddle and to a prone position. Mastery grants advantage on this maneuver."
 					]
 				}
 			],
@@ -532,6 +546,7 @@
 				"DEF",
 				"DIS",
 				"F",
+				"L",
 				"TRP"
 			],
 			"entries": [
@@ -539,7 +554,7 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery gives the Light, Entangle, and Lunge properties. When you are hit with a melee weapon attack, as a reaction you can make a disarm or entangle attack against that enemy. While dual wielding two hook swords, you have reach and a lunge does not use your reaction."
+						"Mastery gives the Entangle and Lunge properties. When you are hit with a melee weapon attack, as a reaction you can make a disarm or entangle attack against that enemy. While dual wielding two hook swords, you have reach and a lunge does not use your reaction."
 					]
 				}
 			],
@@ -558,14 +573,15 @@
 			"dmgType": "S/P",
 			"property": [
 				"DIS",
-				"TRP"
+				"TRP",
+				"L"
 			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"When you make a trip attack, if you hit, even if they save against the attempt, your enemy's speed is reduced by 10ft until the end of their next turn. While they have this penalty, they have disadvantage saving throws against a trip attack."
+						"When you make a trip attack, if you hit, even if they save against the attempt your enemy's speed is reduced by 10ft until the end of their next turn. While they have this penalty, they have disadvantage saving throws against a trip attack."
 					]
 				}
 			],
@@ -750,7 +766,8 @@
 			"dmg2": "",
 			"dmgType": "B/S",
 			"property": [
-				"PEN"
+				"PEN",
+				"L"
 			],
 			"entries": [
 				{
@@ -776,7 +793,8 @@
 			"dmgType": "B",
 			"property": [
 				"T",
-				"DIS"
+				"DIS",
+				"L"
 			],
 			"entries": [
 				{
@@ -812,7 +830,7 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery gives the Double Ended property, with the damage being 1d4, and increases the main weapon damage to 1d12. Before you roll an attack, you can choose to -5 to the roll. On hit, you deal piercing damage equal to your strength modifier, but reduce the enemy's AC by the same amount."
+						"Mastery gives the Double Ended property, with the damage being 1d4, and increases the main weapon damage to 1d12. As an action, you can try to ruin the protective qualities of your enemy's armor, even if it is Natural Armor. You can use an action to make an attack, taking -5 to the roll. On hit, you deal piercing damage equal to your strength modifier, but reduce the enemy's AC by the same amount."
 					]
 				}
 			],
@@ -838,7 +856,14 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"The Double Ended property damage is 1d6. Mastery increases the Double Ended damage to 1d8. You gain +1 AC while wielding this weapon and you may add your ability modifier to damage rolls made with Double Ended. Additionally, you may use Double Ended when making an Opportunity Attack, making two attacks instead of one."
+						"Mastery increases the Double Ended damage to 1d8. You gain +1 AC while wielding this weapon. Additionally, you may use Double Ended when making an Opportunity Attack, making two attacks instead of one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Double Ended damage is 1d6."
 					]
 				}
 			],
@@ -865,7 +890,14 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Melee damage is 1d6, ranged is 1d8. Mastery gives the Double Ended property, for 1d6 damage. You may add your ability modifier to damage rolls made with Double Ended."
+						"Mastery gives the Double Ended property, for 1d6 damage. As a bonus action, you may choose the disengage action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Melee damage is 1d6, ranged damage is 1d8."
 					]
 				}
 			],
@@ -893,7 +925,14 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Martial reload is a free object interaction. Mastery makes the damage 1d12, and the reload part of the attack. When you overdraw, you take the normal -5 to attack, but if you hit, you deal damage to your primary target, and one other target in a straight line from you that intercects your first target."
+						"Mastery makes the damage 1d12. When you overdraw, you take the normal -5 to attack, but if you hit, you deal damage to your primary target, and one other target in a straight line from you that intercects your first target."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Reload at martial training is as an Object Interation. At martial trainng, it is as part of an attack."
 					]
 				}
 			],
@@ -913,7 +952,8 @@
 			"dmgType": "P",
 			"property": [
 				"2H",
-				"H"
+				"H",
+				"TRP"
 			],
 			"entries": [
 				{
@@ -980,7 +1020,7 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"You can loose two arrows at the same time. These attacks suffer disadvantage, and must target two targets within your normal range and within 5 ft of each other."
+						"You can loose two arrows at the same time. You must choose two targets within your normal range that are within 5 ft of one another, but may attack each target separately with the same attack. These attacks suffer disadvantage that cannot be removed."
 					]
 				}
 			],
@@ -1033,7 +1073,7 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery increases damage to 1d6, and gives the Entangle, Melee 1d6, Light, and Trip properties. You can take -5 to the attack roll to hurl with extra strength, and on hit, the target must succeed on a Constitution saving throw or have disadvantage to attacks until the end of its next turn."
+						"Mastery increases damage to 1d6, and gives the Entangle, Light, and Trip properties. Additionally it allows you to make melee attacks, with 1d6 damage. You can take -5 to the attack roll to hurl with extra strength, and on hit, the target must succeed on a Constitution saving throw or have disadvantage to attacks until the end of its next turn."
 					]
 				},
 				{
@@ -1059,7 +1099,8 @@
 			"dmg2": "",
 			"dmgType": "B/S",
 			"property": [
-				"2H"
+				"2H",
+				"DIS"
 			],
 			"entries": [
 				{
@@ -1130,7 +1171,7 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery adds the Disarm property, and increases the range to 40/120. Reroll any damage die from this weapon or any modifiers that rolls a 1. Additionally, when you trip, your target's speed is reduced by 10ft until the end of their next turn."
+						"Mastery adds the Disarm property, and increases the range to 40/120. Reroll any damage die from this weapon or any attachers that rolls a 1. Additionally, when you trip, your target's speed is reduced by 10ft until the end of their next turn."
 					]
 				}
 			],
@@ -1149,14 +1190,15 @@
 			"dmg2": "",
 			"dmgType": "P/S",
 			"property": [
-				"F"
+				"F",
+				"L"
 			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery gives the Deflect, Light, and Lunge properties. If you are wielding a rapier and nothing in your off hand, you can add d4 to your damage roll. If you are wielding a light weapon, instead add +1 to AC."
+						"Mastery gives the Deflect and Lunge properties. If you are wielding a rapier and nothing in your off hand, you can add d4 to your damage roll. If you are wielding a light weapon, instead add +1 to AC."
 					]
 				}
 			],
@@ -1174,14 +1216,15 @@
 			"dmg2": "",
 			"dmgType": "P/S",
 			"property": [
-				"F"
+				"F",
+				"DEF"
 			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Melee damage increased to 2d4, and adds the Deflect and Light properties. If an enemy hits you with a melee weapon attack, you can use your reaction to add your proficiency to your AC, possibly negating a successful hit. This added bonus to AC lasts for that enemy's turn only."
+						"Melee damage increased to 2d4, and adds the Light property. If an enemy hits you with a melee weapon attack, you can use your reaction to add your proficiency to your AC, possibly negating a successful hit. This added bonus to AC lasts for that enemy's turn only."
 					]
 				}
 			],
@@ -1209,7 +1252,7 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"You gain +1 AC if you are wielding a Sai in your off hand, and you may perform a Disarm attack as a reaction if an enemy misses you with a melee attack."
+						"Mastery grants the Disarm property. You gain +1 AC if you are wielding a Sai in your off hand, and you may perform a Disarm attack as a reaction if an enemy misses you with a melee attack."
 					]
 				}
 			],
@@ -1235,7 +1278,7 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery makes the damage 1d8. When you have advantage on the attack, you can roll damage twice and take the better result, including any modifiers attached to the shortsword, such as elemental imbue damage or sneak attacks."
+						"Mastery makes the damage 1d8. When you have advantage on the attack, you can roll damage twice and take the better result, including any attachers, such as elemental imbue damage or sneak attacks."
 					]
 				}
 			],
@@ -1345,14 +1388,15 @@
 			"property": [
 				"2H",
 				"FIR",
-				"LD"
+				"LD",
+				"TRP"
 			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"If a target is within 15ft, it must succeed on a Strength saving throw or be pushed back 5ft or knocked prone."
+						"Mastery increases damage to 2d10+5. If a target is within 15ft, it must succeed on a Strength saving throw or be pushed back 5ft or knocked prone."
 					]
 				},
 				{
@@ -1374,9 +1418,10 @@
 			"rarity": "none",
 			"value": 200,
 			"weight": 5,
-			"dmg1": "2d4",
-			"dmg2": "",
+			"dmg1": "1d10",
+			"dmg2": "1d12",
 			"dmgType": "F",
+			"dmgType2": "P"
 			"property": [
 				"2H",
 				"FIR",
@@ -1394,7 +1439,7 @@
 					"type": "entries",
 					"name": "Weapon Ability",
 					"entries": [
-						"Ranged fire attack spread out in a 15 ft cone from within 10 ft of you, targets within the cone must make a DEX save or take 2d4 fire damage. Can also be used as a lance in melee, dealing 1d8 damage. Reloads as a bonus action."
+						"Ranged fire attack spread out in a 15 ft cone from within 10 ft of you, targets within the cone must make a DEX save or take the fire damage plus your DEX bonus. Can also be used as a lance in melee, dealing 1d12 damage. Reloads as a bonus action."
 					]
 				}
 			],
