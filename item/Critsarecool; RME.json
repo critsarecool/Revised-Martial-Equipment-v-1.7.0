@@ -1421,7 +1421,6 @@
 			"dmg1": "1d10",
 			"dmg2": "1d12",
 			"dmgType": "F",
-			"dmgType2": "P",
 			"property": [
 				"2H",
 				"FIR",
@@ -1432,14 +1431,14 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"While loaded, as an action, you sweep fire around you, forcing all targets within 10ft to succeed on a Dexterity saving throw or suffer 2d4 fire damage."
+						"Mastery increases fire damage to 1d12, and melee damage to 2d8. While loaded, as an action, you sweep fire around you, forcing all targets within 10ft to succeed on a Dexterity saving throw or suffer 2d4 fire damage."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Weapon Ability",
 					"entries": [
-						"Ranged fire attack spread out in a 15 ft cone from within 10 ft of you, targets within the cone must make a DEX save or take the fire damage plus your DEX bonus. Can also be used as a lance in melee, dealing 1d12 damage. Reloads as a bonus action."
+						"Fire damage is 1d10, melee damage is 1d12 and piercing. Ranged fire attack spread out in a 15 ft cone from within 10 ft of you, targets within the cone must make a DEX save or take the fire damage plus your DEX bonus. Can also be used as a lance in melee, dealing 1d12 damage. Reloads as a bonus action."
 					]
 				}
 			],
@@ -1460,7 +1459,8 @@
 			"property": [
 				"FIR",
 				"PEN",
-				"LD"
+				"LD",
+				"L"
 			],
 			"entries": [
 				{
@@ -1503,14 +1503,14 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery makes the damage 2d6. As an action, you fire all barrels at once, rolling an attack for each loaded barrel against an enemy 10ft or less from you. After two shots, the weapon jams on 2-3, and is destroyed if you roll a 1."
+						"As an action, you fire all barrels at once, rolling an attack for each loaded barrel against an enemy 10ft or less from you. The weapon jams on 2-3, and is destroyed if you roll a 1."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Weapon Ability",
 					"entries": [
-						"This weapon doesn't suffer disadvantage when an enemy is within 5 ft. The weapon can be fired four times before reloading. Reloading requires an action, which will only reload 2 barrels. Variants with more barrels can be purchased, with a 5 barrel and 6 barrel option for 2000 and 2500 respectively."
+						"This weapon doesn't suffer disadvantage when an enemy is within 5 ft. The weapon can be fired four times before reloading. Reloading requires an action, which will only reload 2 barrels. Variants with more barrels can be purchased, with a 5 barrel and 6 barrel option for 2000 and 2500 respectively. An object interaction must be used to turn the barrels after each shot."
 					]
 				}
 			],
@@ -1531,21 +1531,22 @@
 			"property": [
 				"FIR",
 				"T",
-				"LNC"
+				"LNC",
+				"L"
 			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery grants the Light property. Your can attack two targets if they are within 5ft of each other."
+						"You can attack two targets if they are within 5ft of each other."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Weapon Ability",
 					"entries": [
-						"After being hit, the target continues to take 1d6 fire damage at the start of its turn for 1d6 rounds. They can use an action to make a dexterity saving throw as an action, extinguishing it on a success. Alternatively, an ally can make an acrobatics check to attempt to pat them out. On a miss, the fire burns for 1d6 rounds, and any creature starting its turn there or entering the space for the first time on its turn must make a DEX save, or suffer 1d6 fire damage."
+						"After being hit, the target continues to take 1d6 fire damage at the start of its turn. They can use an action to make a dexterity saving throw as an action, extinguishing it on a success. Alternatively, an ally can make an acrobatics check to attempt to pat them out. On a miss, the fire burns for 1d6 rounds, and any creature starting its turn there or entering the space for the first time on its turn must make a DEX save, or suffer 1d6 fire damage."
 					]
 				}
 			],
@@ -1566,14 +1567,15 @@
 			"property": [
 				"T",
 				"FIR",
-				"LNC"
+				"LNC",
+				"L"
 			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery grants the Light property. You don't suffer disadvantage with an enemy within 5ft of you. You can choose to deal no damage, but give your target disadvantage on the save."
+						"You don't suffer disadvantage with an enemy within 5ft of you. You can choose to deal no damage, but give your target disadvantage on the save."
 					]
 				},
 				{
@@ -1601,14 +1603,15 @@
 			"property": [
 				"T",
 				"LNC",
-				"PEN"
+				"PEN",
+				"L"
 			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery grants the Light property. You can choose to deal only d6 damage, but force all affected targets to succeed on a Strength saving throw or fall prone."
+						"You can choose to deal only d6 damage, but force all affected targets to succeed on a Strength saving throw or fall prone."
 					]
 				},
 				{
@@ -1712,14 +1715,15 @@
 			"dmgType": "P/S",
 			"property": [
 				"F",
-				"V"
+				"V",
+				"L"
 			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery increases the damage to 1d8/1d10, and grants the Deflect and Light properties. While wielding this weapon with two hands, your deflect dice becomes 2d10. With one hand, you may add your proficiency bonus to your deflect rolls."
+						"Mastery increases the damage to 1d8/1d10, and grants the Deflect property. While wielding this weapon with two hands, your deflect dice becomes 2d10. With one hand, you may add your proficiency bonus to your deflect rolls."
 					]
 				},
 				{
@@ -1812,7 +1816,7 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery increases damage to 1d8, and grants the Deflect property. When you choose to deflect, you may roll twice and take the better result. Additionally, if you travel at least 20ft before you make an attack, your weapon deals an additional 2d8 slashing damage."
+						"Mastery increases damage to 1d8, and grants the Deflect property. When you choose to deflect, you may roll twice and take the better result. Additionally, if you travel at least 20ft before you make an attack, your weapon deals an additional d8 slashing damage for one attack. To deal this extra damage again, you must travel an additional 20 ft, choosing the same or different target."
 					]
 				}
 			],
@@ -1927,7 +1931,8 @@
 				"2H",
 				"H",
 				"LD",
-				"TRP"
+				"TRP",
+				"PEN"
 			],
 			"entries": [
 				{
@@ -1976,7 +1981,7 @@
 					"type": "entries",
 					"name": "Weapon Info",
 					"entries": [
-						"Reloading time is a bonus action. The hand this weapon is equipped to is open, however, you can’t deploy a hidden crossbow from a hand that is holding something. This weapon cannot be disarmed, but takes 1 action to equip or remove."
+						"Reloading time is a bonus action. The hand this weapon is equipped to is open, however, you can’t deploy a hidden crossbow from a hand that is holding something. This weapon cannot be disarmed, but takes an action to equip or remove."
 					]
 				}
 			],
@@ -2030,21 +2035,22 @@
 			"dmgType": "P",
 			"property": [
 				"2H",
-				"LD"
+				"LD",
+				"PEN"
 			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Master increases the range to 40/80, and makes the reload a bonus action. When you score a critical within 30ft, roll 6d4 for your bonus critical damage."
+						"Master increases the range to 40/80, and makes the reload a bonus action. When you score a critical within 40ft, roll 6d4 for your bonus critical damage."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Weapon Info",
 					"entries": [
-						"Reloading time is in place of an attack. Attacking in the far range on medium or smaller targets only deals 1d4 damage, as only the top bolt is accurate at range. Large an larger size targets take the full damage."
+						"Reloading time is in place of an attack. Attacking in the far range on medium or smaller targets only deals 1d4 damage, as only the top bolt is accurate at range. Large and larger size targets take the full damage."
 					]
 				}
 			],
@@ -2065,6 +2071,7 @@
 			"property": [
 				"2H",
 				"H",
+				"ENT",
 				"PEN",
 				"LD",
 				"TRP"
@@ -2074,7 +2081,7 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Master makes the reload a bonus action. The crossbow mastery feat's two-target range is 50ft. If you choose a piece of terrain within 5ft of your target and which flanks your target with you, you can instead give the restrained condition to your target on that terrain. Escape DC is your weapon DC."
+						"Master makes the reload a bonus action. The crossbow mastery feat's two-target range is 50ft. Additionally, your Entangle attacks add the restrained condition if successful, as you pin your target to the ground or surrounding terrain features."
 					]
 				},
 				{
@@ -2100,14 +2107,15 @@
 			"dmg2": "",
 			"dmgType": "S",
 			"property": [
-				"S"
+				"DIS",
+				"L"
 			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery grants the Light property. On a critical hit, the blade bounces off its target and hits another target of your choice within 10ft of the first target, dealing normal weapon damage."
+						"On a critical hit, the blade bounces off its target and hits another target of your choice within 10ft of the first target, dealing only weapon damage."
 					]
 				},
 				{
@@ -2118,6 +2126,7 @@
 					]
 				}
 			],
+			"range": "30/120",
 			"source": "RME"
 		},
 		{
@@ -2166,14 +2175,15 @@
 			"dmgType": "B/P",
 			"property": [
 				"DIS",
-				"TRP"
+				"TRP",
+				"L"
 			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery grants the Light property. If you miss with an attack, you may use your reaction to make one extra attack as part of the same action."
+						"If you miss with an attack, you may use your reaction to make one extra attack as part of the same action."
 					]
 				}
 			],
@@ -2224,7 +2234,7 @@
 			"weight": 10,
 			"dmg1": "1d10",
 			"dmg2": "",
-			"dmgType": "B",
+			"dmgType": "B/P",
 			"property": [
 				"2H",
 				"H",
@@ -2265,7 +2275,7 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery grants the Disarm and Trip properties. As an action, you begin twirling the hammer around you in a 10ft radius. Until the start of your next turn, any creature of your choice which starts its turn or which enters this space must succeed on a Dexterity save or be damaged as if you hit it with a melee attack."
+						"Mastery grants the Disarm and Trip properties. As an action, you begin twirling the hammer around you in a 10ft radius. Until the start of your next turn, any creature of your choice which starts its turn or which enters this space must succeed on a Dexterity save or take d4 plus either STR or DEX in bludgeoning damage."
 					]
 				}
 			],
@@ -2286,14 +2296,15 @@
 				"CCL",
 				"ENT",
 				"F",
-				"TRP"
+				"TRP",
+				"L"
 			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"Mastery grants the Light property and the Double Ended property, with the double ended damage being 1d4. You can treat this weapon as if it is Double Ended even while wielding it in one hand. If you dual wield nunchaku, you may make two Double Ended attacks with the same Bonus Action. If you wield only one, you may add your ability modifier to the attack's damage."
+						"Mastery grants the Double Ended property, with the double ended damage being 1d4. You can treat this weapon as if it is Double Ended even while wielding it in one hand. If you dual wield nunchaku, you may make two Double Ended attacks with the same Bonus Action. If you wield only one, you gain the Disarm property."
 					]
 				}
 			],
@@ -2457,6 +2468,870 @@
 					]
 				}
 			],
+			"source": "RME"
+		},
+		{
+			"name": "Maul",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 10,
+			"weight": 12,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"H",
+				"PEN",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases damage to 2d8. If you move at least 10 ft before making an attack, you gain +5 bonus to the attack's damage roll and your shove attacks knock foes 10 ft and prone instead of 5 ft or prone."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"A maul always has advantage on attack rolls to damage objects."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Lucerne",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 25,
+			"weight": 8,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "B/P",
+			"property": [
+				"BR",
+				"H",
+				"PEN",
+				"R",
+				"TRP",
+				"2H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"As an action, you roll an attack to destroy the shield or armor worn by the enemy. On a hit, your enemy must succeed on a Dexterity saving throw or their AC is reduced by 2. If they succeed on this save, they instead take damage."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Light Pick",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 2,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"F",
+				"L",
+				"PEN",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You have +2 against any enemy wearing armor."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Wall Pick",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 3,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"ENT",
+				"L",
+				"PEN",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery adds Finesse and Disarm, and makes the damage 1d8. You have advantage on attack rolls made to entangle, and if both dice would have hit, your enemy has the restrained and grappled condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"While using a wall pick, you have advantage on climb checks."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "War Pick",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 15,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"PEN",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 1d10. You can choose to take -5 to your attack roll, and if successful, your target takes piercing damage equal to your strength modifier at the start of each of their turns. A creature can attempt a Constitution saving throw at the end of their turn, ending the effect on a success. If the creature receives any healing, this also ends the effect."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Stiletto",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 10,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"CCL",
+				"ENT",
+				"F",
+				"L",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"When you successfully entangle, as a bonus action you can attempt a shove."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Glaive",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 20,
+			"weight": 5,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"BR",
+				"F",
+				"R",
+				"H",
+				"2H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the Lunge property. Against creatures of category size Large and larger, your damage is 3d6 instead of 2d6. Your Double Ended Attack is still d4."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Guisarme",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 10,
+			"weight": 5,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"BR",
+				"R",
+				"TRP",
+				"H",
+				"2H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You have advantage on trip attacks made to targets at 10ft away from you, and if you succeed against a mounted foe, it is automatically pulled from its mount to a prone position without making any additional saves. When you successfully hit with a trip attack, its speed is reduced by 10ft until the end of its next turn, regardless of whether it succeeded on the save."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"With at least martial proficiency, a Guisarme can be used to perform a trip against mounted foes to pull them from the saddle to a prone position. Guisarme masters get advantage on trip maneuvers."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Lajatang",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 75,
+			"weight": 8,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"2H",
+				"DBL",
+				"BR",
+				"F",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You negate any effect an enemy might gain from flanking or having the enemy's ally near you, including bonuses such as Pack Tactics or Sneak Attack. In addition, you make two attacks with Double Ended instead of the usual one, however your second attack from Double Ended must choose a different target than the first."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Double ended damage is equivalent to the main weapon damage."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Partisan",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 25,
+			"weight": 6,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"2H",
+				"BR",
+				"R",
+				"H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the lunge property. You have +2AC against melee attacks from enemies that are 10ft away from you. When an enemy targets an ally within 5ft of you, you can use your reaction to impose disadvantage to that attack."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "War Scythe",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 5,
+			"weight": 8,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"2H",
+				"H",
+				"ENT",
+				"PEN",
+				"R",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 2d8. When you successfully trip an enemy, that enemy takes full weapon damage, and has its speed reduced to just 10ft until the end of its next turn."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Godendag",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 12,
+			"weight": 5,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"2H",
+				"T",
+				"PEN",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the Disarm property, increases the range to 30/120, and increases the damage to 1d8. Before you attack, you can choose to take -5 to the roll. If you hit, your foe must succeed on a Constitution saving throw or be stunned until the end of your next turn."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Harpoon",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 1,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"T",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the range to 30/120, grants the Penetrate property, and the damage to 1d8. You may drag an enemy back to you at twice your climbing speed, and enemies have disadvantage on Strength saving throws."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Each hit, your enemy must succeed on a strength saving throw or be impaled, while a critical hit always impales. When an enemy is impaled, you can spend a bonus action to pull it toward you a number of feet equal to your climbing speed, if you win an Athletics contest with the enemy on your turn. On its turn, to move away from you, it must win an Athletics contest. While impaled, your enemy takes damage from your weapon at the start of its turn. If you harpoon an enemy at least two size categories larger than you, you simply move with your target and climb the rope as normal Your enemy can spend an action to repeat the save to pull the weapon free. If your harpoon is free or you miss, you can retrieve it at twice your climb speed on your turn as a bonus action."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Javelin",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 1,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases range to 30/240 and the damage to 1d8. Before the attack, you can take -5 to your attack roll. If you hit, your enemy can no longer use their shield until they use an action to pry the remnants of the javelin from the shield itself."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Lance",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 10,
+			"weight": 6,
+			"dmg1": "1d12",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"BR",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 2d8. While mounted, each attack is also a shove attempt, and you have advantage on the contest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Disadvantage on attacks against targets within 5 ft while on foot, and gains penetrate when mounted."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "War Spear",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 25,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"DBL",
+				"F",
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 1d10/1d12 and the range to 30/120. If you hit the same target twice in a row, your second hit deals an extra d6 damage. As long as you continue to hit the same target, even between turns, you deal the extra damage. If you ever miss or change targets you must start this process over."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Versatile damage is 1d10, double ended damage is 1d4."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Pike",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 5,
+			"weight": 8,
+			"dmg1": "1d12",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"BR",
+				"H",
+				"LUN",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 2d8. No creature gives half cover to your enemy while at reach. Your allies still provide half cover to you."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Ravenbeak",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 15,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P/S",
+			"property": [
+				"2H",
+				"BR",
+				"ENT",
+				"H",
+				"LUN",
+				"R",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the Disarm property. While at reach, you ignore any shield AC. Additionally, your disarm attacks deal full weapon damage if the enemy fails the saving throw."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Trident",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 10,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"DIS",
+				"T",
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 1d12/3d4, the deflect property (3d4), and increases the thrown range to 30/120. If you hit with a Thrown attack, the enemy must succeed on a Strength saving throw or their speed is reduced by half until they use an action to remove it. If an enemy misses you with a melee weapon attack, you may use your reaction to attempt a disarm attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Versatile damage is 2d4."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Bolas",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 1,
+			"weight": 2,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"ENT",
+				"T"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery gives the Trip property, as well as increasing the range to 40/60. On a hit, you deal your weapon's normal damage and your enemy must succeed on a save against both an Entangle and Trip."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"A bolas has an AC of 15 and 2HP and is immune to bludgeoning damage. When your enemy succeeds at a save to escape or reduces the bolas to 0hp, it is destroyed."
+					]
+				}
+			],
+			"range": "20/30",
+			"source": "RME"
+		},
+		{
+			"name": "Boomerang",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 3,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "B/S",
+			"property": [
+				"T",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the range to 80/240. You ignore cover and can target two separate targets within your normal range with one attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Weapon can be used in melee and at range. This weapon returns to you as long as your target is within normal range."
+					]
+				}
+			],
+			"range": "40/120",
+			"source": "RME"
+		},
+		{
+			"name": "Chakram",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 0.1,
+			"weight": 0.1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"T",
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 1d8, and the range to 80/500. If a creature misses you with a ranged or melee attack, you can use your reaction to make a ranged or melee attack against that creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"This weapon returns to you like a boomerang as long as your target is within normal range."
+					]
+				}
+			],
+			"range": "40/120",
+			"source": "RME"
+		},
+		{
+			"name": "Dart",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 0.1,
+			"weight": 0.05,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"CCL",
+				"F",
+				"L",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 1d6, and the range to 60/120. When you land a hit, you can choose to deal no damage and instead pin the enemy to an adjacent wall or obstacle such as a tree or boulder. Your enemy is restrained, the escape DC is your weapon DC."
+					]
+				}
+			],
+			"range": "30/60",
+			"source": "RME"
+		},
+		{
+			"name": "Net",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 1,
+			"weight": 3,
+			"dmg1": "0",
+			"dmg2": "",
+			"dmgType": "N/A",
+			"property": [
+				"2H",
+				"T",
+				"ENT"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the Deflect (1d6), Light, and Trip properties, and makes it one-handed, as well as increasing the range to 15 ft. If you have advantage when you entangle your enemy, it has disadvantage on the check made to escape."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"A large or smaller creature hit by a net is restrained until freed. Dealing 5 slashing damage to the net (AC10) also frees the creature without harming it, ending the effect and destroying the net. A normal net cannot be used against category size Huge or larger enemies, but larger nets can be made at four times the cost and weight which can target Huge targets, while a net for gargantuan targets may not be able to be made with normal materials or wielded by a medium creature."
+					]
+				}
+			],
+			"range": "10",
+			"source": "RME"
+		},
+		{
+			"name": "Orc Throwing Shot",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 0.5,
+			"weight": 16,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"2H",
+				"T",
+				"PEN",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the Disarm property, as well as increasing the damage to 1d12. If you have advantage and both dice would have hit, or if you score a critical hit, your enemy is stunned until the end of its next turn. If you have disadvantage but one dice would have hit, deal your strength modifier in damage to the target, though this still counts as a miss."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"Requires a strength of at least 13 to wield."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Throwing Star",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 0.1,
+			"weight": 0.05,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"CCL",
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the range to 40/120. As an Action, you can force all targets of your choice in a 15ft cone to succeed on a Dexterity Saving Throw or suffer d4 plus your choice of Strength or Dexterity modifier in piercing damage. You throw as many stars as there are valid targets."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Throwing Knife",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "exotic",
+			"rarity": "none",
+			"value": 0.1,
+			"weight": 0.05,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B/P/S",
+			"property": [
+				"T",
+				"CCL",
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the range to 40/120. As an action, you can force all targets of your choice within 10ft to succeed on a Dexterity Saving Throw or take d4 plus your choice of your Strength or Dexterity modifier in piercing damage. You throw as many knives as there are valid targets."
+					]
+				}
+			],
+			"range": "20/60",
 			"source": "RME"
 		}
 	]
